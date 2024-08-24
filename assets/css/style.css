@@ -135,7 +135,7 @@
   text-align: center;
 }
 
-.products {
+.products, .plants {
   height: 100vh;
 }
 
@@ -152,10 +152,6 @@
 
 .carousel-inner {
   width: 70%;
-}
-
-.card-group{
-  
 }
 
 .card-group .card {
@@ -194,6 +190,14 @@
   position: absolute;
   z-index: -1;
   top: 9%;
+}
+
+.plants .fondo1{
+  top: 1%;
+}
+
+.plants .fondo2{
+  top: 1%;
 }
 
 .fondo2{

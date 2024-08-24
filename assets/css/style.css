@@ -566,3 +566,113 @@
   }
 
 }
+
+
+@media (min-width: 320px) and (max-width: 767px ) {
+  
+  .logo{
+    display: none;
+  }
+  
+  .nav-item .nav-link {
+    color: var(--color-primario);
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .contariner-img img {
+    display: none;
+  }
+
+  .container_text{
+    width: 100%;
+  }
+
+  .secction_home{
+    padding-top: 8%;
+  }
+  .secction_home h2 {
+    font-size: 4.5rem;
+  }
+  
+  .secction_home p {
+    font-size: 2.2rem;
+    width: 90%;
+  }
+
+
+  .card-group .card h4 {
+    font-size: 1rem;
+  }
+
+  .btn-car {   
+    font-size: 0.9rem;
+  }
+
+  .decoration .container-title{}
+
+  .decoration .container-title .subTitle {
+    font-size: 3.5rem;
+    width: 100%;
+  }
+
+  .decoration .container-title p {
+    font-size: 1.7rem;
+    width: 100%;
+  }
+
+  .container-img img.medium {
+    display: none;
+  }
+
+  .container-img img.small{
+    display: none;
+  }
+
+  .embed-responsive iframe {
+    width: 150px;
+  }
+
+  .plants{ 
+  }
+
+  #newletter form { 
+    width: 100%;
+  }
+  #blog .card .card-title {
+    margin-bottom: 5%;
+    font-size: 1.5rem;
+    text-underline-offset: 5px;
+  }
+
+  #blog .card .card-text {
+    font-size: 1.2rem;
+  }
+
+  .carousel-control-prev.small,
+  .carousel-control-next.small
+  {
+    display: none;
+  }
+
+  #about .container{  
+    display: flex;
+    flex-direction: column;  
+  }
+  
+  #about .mision{ 
+    margin: 10% 0;
+  }
+  
+  #about .mision h2,
+  #about .vision h2{ 
+    font-size: 2rem;
+  }
+  
+  #about .mision p,
+  #about .vision p{ 
+    font-size: 1.2rem;
+    width: 100%;
+  }
+
+}

@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --color-primario: #1A3B04;
+  --color-secundario: #444443BD;
+  --color-terciario: #3C674A;
+  --color-line: #238B61;
+  --color-cards-primario: #78B9878F;
+  --color-cards-secundario: #DBCECE4D;
+  --color-footer-primario: #C9C8C88C;
+  --color-footer-btn-primario: #AED1B4;
+  --color-hover: #272727;
+
+  --fuente-Poppins: "Poppins", sans-serif;
+  ;
+}
+
+@font-face {
+  font-family: "Acumin";
+  src: url('/assets/fonts/AcuminVariableConcept.otf');
+}
+
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 9px;
+}
+
+.logo h1 {
+  /* font-size: 3rem; */
+  font-size: 100px;
+  color: var(--color-primario);
+  font-family: var(--fuente-Poppins);
+  letter-spacing: -4px;
+  font-weight: 600;
+}
+
+.navbar {
+  margin-top: 2%;
+}
+
+.navbar-brand {
+  color: var(--color-primario);
+
+}
+
+.navbar-nav {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.container-search {
+  margin-left: 2%;
+}
+
+.btn-outline-success {
+  background-color: var(--color-footer-btn-primario);
+  color: var(--color-primario);
+  font-weight: bold;
+  border: none;
+}
+
+.btn-outline-success:hover {
+  background-color: var(--color-primario);
+  color: var(--color-footer-btn-primario);
+}
+
+
+.nav-item .nav-link {
+  color: var(--color-primario);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+
+.home {
+  background-image: url('./../img/fondo.jpg');
+  /* background-image: url('./../img/fondo\ pagina.png'); */
+  background-size: cover;
+  /* Ajusta la imagen para cubrir todo el fondo */
+  background-repeat: no-repeat;
+  /* Evita que la imagen se repita */
+  background-position: center;
+  /* Centra la imagen en la pantalla */
+  height: 100vh;
+}
+
+.secction_home {
+  margin-top: 6%;
+  display: flex;
+}
+
+.container_text {
+  width: 70%;
+}
+
+.contariner-img {
+  width: 30%;
+}
+
+.contariner-img img {
+  position: absolute;
+  right: 8%;
+  width: 40%;
+  bottom: -7%;
+  max-width: 530px;
+}
+
+.secction_home h2 {
+  font-family: 'Acumin';
+  font-weight: 600;
+  color: var(--color-primario);
+  font-size: 6.5rem;
+}
+
+.secction_home p {
+  font-family: 'Acumin';
+  font-weight: 500;
+  color: var(--color-primario);
+  font-size: 2.8rem;
+  width: 60%;
+}
+
+
+.section_title {
+  margin: 6% 0px;
+  font-family: 'Acumin';
+  font-size: 4rem;
+  color: var(--color-primario);
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  text-underline-offset: 20px;
+  text-align: center;
+}
+
+.products {
+  height: 100vh;
+}
+
+.fa-chevron-left,
+.fa-chevron-right {
+  color: var(--color-primario);
+  font-size: 9rem;
+}
+
+.carousel.slide {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-inner {
+  width: 70%;
+}
+
+.card-group{
+  
+}
+
+.card-group .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+}
+
+.card-group .card h4 {
+  color: var(--color-primario);
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.card-group .card h5 {
+  color: var(--color-primario);
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: -1.6px;
+}
+
+.card-img-top {
+  height: 400px;
+  width: 300px;
+
+}
+
+.fondo1 {
+  background: #78B9878F 0% 0% no-repeat padding-box;
+  border-radius: 44px 44px 104px 104px;
+  width: 90%;
+  height: 43%;
+  position: absolute;
+  z-index: -1;
+  top: 9%;
+}
+
+.fondo2{
+  background: #DBCECE4D 0% 0% no-repeat padding-box;
+  border-radius: 44px 44px 100px 100px;
+  width: 90%;
+  height: 50%;
+  position: absolute;
+  z-index: -1;
+  top: 9%;
+}
+
+.btn-car {
+  background-color: var(--color-terciario);
+  color: white;
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 9px 34px;
+  border-radius: 15px;
+}
+
+.btn-car:hover {
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+.test {
+  background: #ddece0;
+}

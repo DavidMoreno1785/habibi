@@ -288,10 +288,10 @@
 
 .container-img img.small {
   height: 125%;
-    right: 0;
-    position: absolute;
-    z-index: 1;
-    bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
 }
 
 .container-img img.medium {
@@ -306,29 +306,30 @@
   position: relative;
 }
 
-.embed-responsive-item{
+.embed-responsive-item {
   /* height: 50%; */
 }
 
-.embed-responsive iframe{
+.embed-responsive iframe {
   width: 400px;
   height: 300px;
   border-radius: 35px;
 }
 
-#blog{
+#blog {
   margin-top: 5%;
 }
 
 
-#blog .card .card-title{
+#blog .card .card-title {
   margin-bottom: 5%;
   text-decoration: underline;
   text-decoration-skip-ink: none;
   text-underline-offset: 8px;
   text-align: left;
 }
-#blog .card .card-text{
+
+#blog .card .card-text {
   font-family: 'Acumin';
   color: var(--color-secundario);
   font-size: 1.5rem;
@@ -344,16 +345,16 @@
   align-items: center;
 }
 
-#newletter h3{
+#newletter h3 {
   color: var(--color-primario);
   text-align: center;
   font-weight: 400;
-  font-size: 2.2rem;  
+  font-size: 2.2rem;
   margin: 3% 0;
 }
 
 
-#newletter  form{
+#newletter form {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -361,7 +362,7 @@
   align-items: center;
 }
 
-#newletter  form input{
+#newletter form input {
   color: var(--color-primario);
   opacity: 63%;
   font-size: 1.5rem;
@@ -370,7 +371,7 @@
   margin-bottom: 5%;
 }
 
-#newletter  form input::placeholder{
+#newletter form input::placeholder {
   color: var(--color-primario);
   opacity: 63%;
   text-align: center;
@@ -378,7 +379,7 @@
   font-family: 'Acumin';
 }
 
-#newletter form button{
+#newletter form button {
   color: var(--color-primario);
   background-color: var(--color-footer-btn-primario);
   font-size: 1.6rem;
@@ -389,7 +390,44 @@
   margin-bottom: 5%;
 }
 
-#newletter form button:hover{
+#newletter form button:hover {
   background-color: var(--color-primario);
   color: var(--color-footer-btn-primario);
 }
+
+.full-mision{
+  background-image: url('./../img/fondo-mision.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+
+
+#about .container{  
+  display: flex;
+  flex-direction: column;  
+}
+
+#about .mision{ 
+  margin: 5% 0;
+}
+
+#about .mision h2,
+#about .vision h2{ 
+  font-family: 'Acumin';
+  color: var(--color-primario);
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+#about .mision p,
+#about .vision p{ 
+  font-family: 'Acumin';
+  color: var(--color-secundario);
+  font-size: 1.5rem;
+  width: 70%;
+  margin-left: 5%;
+}
+

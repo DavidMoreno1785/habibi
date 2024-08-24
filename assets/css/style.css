@@ -272,7 +272,7 @@
 .decoration .container-title .line {
   border: 2px solid var(--color-primario);
   /* height: 1px; */
-  width: 90%;
+  width: 84%;
   /* right: 15px; */
   position: absolute;
 }
@@ -334,4 +334,62 @@
   font-size: 1.5rem;
   font-weight: 200;
   text-align: justify;
+}
+
+#newletter {
+  background-color: var(--color-footer-primario);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#newletter h3{
+  color: var(--color-primario);
+  text-align: center;
+  font-weight: 400;
+  font-size: 2.2rem;  
+  margin: 3% 0;
+}
+
+
+#newletter  form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 35%;
+  align-items: center;
+}
+
+#newletter  form input{
+  color: var(--color-primario);
+  opacity: 63%;
+  font-size: 1.5rem;
+  border-radius: 50px;
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+#newletter  form input::placeholder{
+  color: var(--color-primario);
+  opacity: 63%;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: 'Acumin';
+}
+
+#newletter form button{
+  color: var(--color-primario);
+  background-color: var(--color-footer-btn-primario);
+  font-size: 1.6rem;
+  font-weight: bold;
+  font-family: 'Acumin';
+  border: none;
+  width: 50%;
+  margin-bottom: 5%;
+}
+
+#newletter form button:hover{
+  background-color: var(--color-primario);
+  color: var(--color-footer-btn-primario);
 }

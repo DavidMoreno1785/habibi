@@ -305,3 +305,33 @@
 .container.blog {
   position: relative;
 }
+
+.embed-responsive-item{
+  /* height: 50%; */
+}
+
+.embed-responsive iframe{
+  width: 400px;
+  height: 300px;
+  border-radius: 35px;
+}
+
+#blog{
+  margin-top: 5%;
+}
+
+
+#blog .card .card-title{
+  margin-bottom: 5%;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  text-underline-offset: 8px;
+  text-align: left;
+}
+#blog .card .card-text{
+  font-family: 'Acumin';
+  color: var(--color-secundario);
+  font-size: 1.5rem;
+  font-weight: 200;
+  text-align: justify;
+}
